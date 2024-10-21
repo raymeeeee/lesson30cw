@@ -24,6 +24,7 @@ public:
         cout << "Company: " << company << endl;
         cout << "Install: " << install << endl;
         cout << "Days: " << days << endl;
+        cout << "License: " << ((this->isCheck()) ? "True" : "False") << endl;
     };
     bool isCheck()const override { 
         return install + days > Date();
