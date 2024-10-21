@@ -1,5 +1,6 @@
 #pragma once
 #include "Software.h"
+using namespace std;
 class FreeSoftware :
     public Software
 {

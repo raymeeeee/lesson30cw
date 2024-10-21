@@ -11,7 +11,7 @@ public:
 	Software() { name = "undefined"; company = "undefined"; };
 	Software(string name, string company) { this->name = name; this->company = company; };
 
-	virtual ~Software() = 0;	
+	virtual ~Software() = 0 {};
 
 	void setName(string name) { this->name = name; };
 	void setCompany(string company) { this->company = company; };

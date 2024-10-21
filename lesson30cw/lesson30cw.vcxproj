@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="FreeSoftware.cpp" />
     <ClCompile Include="lesson30cw.cpp" />
     <ClCompile Include="Software.cpp" />
