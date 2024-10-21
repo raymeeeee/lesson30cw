@@ -27,6 +27,9 @@
     <ClCompile Include="Date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Shareware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Date.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FreeSoftware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shareware.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

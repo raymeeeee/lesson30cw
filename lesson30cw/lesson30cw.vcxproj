@@ -130,11 +130,13 @@
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="FreeSoftware.cpp" />
     <ClCompile Include="lesson30cw.cpp" />
+    <ClCompile Include="Shareware.cpp" />
     <ClCompile Include="Software.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Date.h" />
     <ClInclude Include="FreeSoftware.h" />
+    <ClInclude Include="Shareware.h" />
     <ClInclude Include="Software.h" />
   </ItemGroup>
   <ItemGroup>
