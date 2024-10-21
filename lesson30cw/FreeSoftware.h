@@ -13,5 +13,11 @@ public:
 		cout << "Company:" << company << endl;
 	};
 	bool isCheck()const override { return true; };
+
+	void load(ifstream& file) override {
+		getline(file, name);
+		getline(file, company);
+	};
+
 };
 

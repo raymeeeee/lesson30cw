@@ -1,6 +1,7 @@
 #pragma once
 #include "Date.h"
 #include <string>
+#include <fstream>
 
 class Software
 {
@@ -21,5 +22,7 @@ public:
 
 	virtual void showInfo()const = 0;
 	virtual bool isCheck()const = 0;
+
+	virtual void load(ifstream& file) = 0;
 };
 
